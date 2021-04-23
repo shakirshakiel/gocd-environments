@@ -21,7 +21,7 @@ environments.each do |environment|
             "http://gocd.example.com:8153/go/api/admin/encrypt",
             method: :post,
             body: "{\"value\": \"#{str}\"}",
-            userpwd: "***REMOVED***:***REMOVED***",
+            userpwd: "user:password",
             headers: { "Accept": "application/vnd.go.cd.v1+json", "Content-Type": "application/json" }
         )
         request.run
