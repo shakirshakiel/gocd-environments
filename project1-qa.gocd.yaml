@@ -1,5 +1,5 @@
 ---
-format_version: 3
+format_version: 10
 environments:
   project1-qa:
     secure_variables:
