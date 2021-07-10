@@ -8,7 +8,7 @@ pipelines:
     materials:
       build:
         ignore_for_scheduling: false
-        pipeline: build
+        pipeline: test
         stage: build
     stages:
     - deploy:
