@@ -1,5 +1,5 @@
 ---
-format_version: 3
+format_version: 10
 environments:
   project2-pt:
     secure_variables:
